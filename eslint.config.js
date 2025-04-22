@@ -18,7 +18,7 @@ export default defineConfig([
   pluginReact.configs.flat.recommended,
   {
     rules: {
-      "react/react-in-jsx-scope": "off", // Not needed with React 17+
+      "react/react-in-jsx-scope": "off",
       "no-unused-vars": "warn",
       "no-undef": "warn",
       "no-console": "error",
